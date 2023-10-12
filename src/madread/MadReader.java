@@ -10,6 +10,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.regex.*;
 
@@ -171,13 +172,48 @@ public class MadReader
         return Arrays.copyOf(products, products.length);
     }
 
+    /**
+     *
+     * @param csdir
+     * @param storedir
+     * @param fileName Should terminate in ".csv".
+     * @throws IOException
+     */
+    public static void extractCrossSections(String csdir, String storedir, String fileName) throws IOException {
+        Pattern form = Pattern.compile("results.html\">\\s*(?<cs>[-.e\\d]+)\\s*<font.*?</font>\\s*(?<dcs>[-.e\\d]+)\\s*</a>", Pattern.DOTALL);
+        // read unweighted events file in as a single string. The following command SHOULD do.
+        Matcher mat = form.matcher(new String(Files.readAllBytes(Paths.get(csdir)), StandardCharsets.UTF_8));
+        // extract from .html file.
+        LinkedList<String> cs = new LinkedList<>();
+        LinkedList<String> dcs = new LinkedList<>();
+        while (mat.find()) {
+            cs.add(mat.group("cs"));
+            dcs.add(mat.group("dcs"));
+        }
+        // store at specified location
+        // create folder in which cross sections will be stored in separate files; automatically skipped if directory exists.
+        new File(storedir).mkdirs();
+        PrintWriter out = new PrintWriter(new File(String.format("%s%s", storedir, fileName)).getAbsoluteFile());
+        out.println("cross section (pb), uncertainty (pb)");
+        // combine entries; need an iterator.
+        Iterator<String> ite = dcs.iterator();
+        for (String c : cs)
+        {
+            out.println(String.format("%s,%s", c, ite.next()));
+        }
+        out.close();
+    }
+
     public static void main(String[] args) throws IOException
     {
-        String iheFilepath = "C:/Users/derek/physics/hep-sim/MG5_aMC_v3_5_1/Repository/pp_a_tau-tau+/Events/run_01/unweighted_events.lhe";
-        MadReader reader = new MadReader(new int[]{11, -11}, new int[]{13, -13}, iheFilepath);
-        // storage path
-        String storePath = "./src/madread/pp_a_tau-tau+/run_01/sim_momenta/";
-        reader.parse(storePath);
+//        String iheFilepath = "C:/Users/derek/physics/hep-sim/MG5_aMC_v3_5_1/Repository/pp_a_tau-tau+/Events/run_06/unweighted_events.lhe";
+//        MadReader reader = new MadReader(new int[]{11, -11}, new int[]{13, -13}, iheFilepath);
+//        // storage path
+//        String storePath = "./src/madread/pp_a_tau-tau+/run_06/sim_momenta/";
+//        reader.parse(storePath);
         // println(reader.eventEntries.size());
+
+        String csPath = "C:/Users/derek/physics/hep-sim/MG5_aMC_v3_5_1/Repository/e-e+_a_tau-tau+_4/crossx.html";
+        extractCrossSections(csPath, "./src/madread/e-e+_a_tau-tau+/trials/", "cross_section4.csv");
     }
 }
