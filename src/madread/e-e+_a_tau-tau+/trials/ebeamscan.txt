@@ -1,0 +1,200 @@
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.000000005
+set ebeam2 100.000000005
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.000050984841
+set ebeam2 100.000050984841
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00020192521961
+set ebeam2 100.00020192521961
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00045282749377
+set ebeam2 100.00045282749377
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00080369392074
+set ebeam2 100.00080369392074
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.0012545276572
+set ebeam2 100.0012545276572
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00180533275922
+set ebeam2 100.00180533275922
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00245611418248
+set ebeam2 100.00245611418248
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00320687778239
+set ebeam2 100.00320687778239
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00405763031411
+set ebeam2 100.00405763031411
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00500837943285
+set ebeam2 100.00500837943285
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00605913369402
+set ebeam2 100.00605913369402
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00720990255347
+set ebeam2 100.00720990255347
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00846069636762
+set ebeam2 100.00846069636762
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.00981152639388
+set ebeam2 100.00981152639388
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.01126240479077
+set ebeam2 100.01126240479077
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.01281334461834
+set ebeam2 100.01281334461834
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.01446435983846
+set ebeam2 100.01446435983846
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.01621546531516
+set ebeam2 100.01621546531516
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.01806667681504
+set ebeam2 100.01806667681504
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.02001801100755
+set ebeam2 100.02001801100755
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.02206948546556
+set ebeam2 100.02206948546556
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.02422111866578
+set ebeam2 100.02422111866578
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.02647292998903
+set ebeam2 100.02647292998903
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.02882493972098
+set ebeam2 100.02882493972098
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.03127716905252
+set ebeam2 100.03127716905252
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.03382964008026
+set ebeam2 100.03382964008026
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.03648237580724
+set ebeam2 100.03648237580724
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.03923540014337
+set ebeam2 100.03923540014337
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.04208873790601
+set ebeam2 100.04208873790601
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.04504241482068
+set ebeam2 100.04504241482068
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.04809645752175
+set ebeam2 100.04809645752175
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.05125089355292
+set ebeam2 100.05125089355292
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.05450575136805
+set ebeam2 100.05450575136805
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.0578610603319
+set ebeam2 100.0578610603319
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.06131685072077
+set ebeam2 100.06131685072077
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.0648731537233
+set ebeam2 100.0648731537233
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.06853000144122
+set ebeam2 100.06853000144122
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.07228742689031
+set ebeam2 100.07228742689031
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.07614546400102
+set ebeam2 100.07614546400102
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.08010414761937
+set ebeam2 100.08010414761937
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.08416351350802
+set ebeam2 100.08416351350802
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.08832359834685
+set ebeam2 100.08832359834685
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.0925844397342
+set ebeam2 100.0925844397342
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.09694607618755
+set ebeam2 100.09694607618755
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.10140854714469
+set ebeam2 100.10140854714469
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.10597189296459
+set ebeam2 100.10597189296459
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.11063615492847
+set ebeam2 100.11063615492847
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.11540137524084
+set ebeam2 100.11540137524084
+set mta 100.0
+launch Repository/e-e+_a_tau-tau+
+set ebeam1 100.12026759703052
+set ebeam2 100.12026759703052
+set mta 100.0
