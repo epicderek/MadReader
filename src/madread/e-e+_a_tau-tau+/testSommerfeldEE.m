@@ -13,8 +13,11 @@ cs_data = csvread(sprintf('%scross_section4.csv', data_dir), 1, 0);
 cs = cs_data(:,1);
 dcs = cs_data(:,2);
 
+% Unenhanced cross sections.
+cs0 = hcs(E, mtau);
+
 figure
-scatter(v, cs ./ hcs(E, mtau), 'filled')
+errorbar(v, cs./cs0, dcs./cs0, '.', 'MarkerFaceColor', 'red', 'LineWidth', 1)
 xlabel('$v$')
 ylabel('$\sigma/\sigma_0$')
 title('Sommerfeld enhancement for $\tau^-\tau^+$ production (4)')
