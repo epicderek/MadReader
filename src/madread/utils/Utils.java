@@ -1,4 +1,4 @@
-package madread;
+package madread.utils;
 
 import static java.lang.Math.*;
 
