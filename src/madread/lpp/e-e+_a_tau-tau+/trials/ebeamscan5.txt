@@ -1,0 +1,202 @@
+generate e- e+ > a > ta- ta+
+output Repository/e-e+_a_tau-tau+_5
+launch
+set ebeam1 115.56166453717182
+set ebeam2 115.56166453717182
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 108.09724498739166
+set ebeam2 108.09724498739166
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 104.4153367082147
+set ebeam2 104.4153367082147
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 102.46445420229347
+set ebeam2 102.46445420229347
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 101.39273114411196
+set ebeam2 101.39273114411196
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.79246578721734
+set ebeam2 100.79246578721734
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.45264435815591
+set ebeam2 100.45264435815591
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.25910505690783
+set ebeam2 100.25910505690783
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.1485017053749
+set ebeam2 100.1485017053749
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.08517140307305
+set ebeam2 100.08517140307305
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.04886882030198
+set ebeam2 100.04886882030198
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.02804598041266
+set ebeam2 100.02804598041266
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.01609782382393
+set ebeam2 100.01609782382393
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00924052964015
+set ebeam2 100.00924052964015
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00530451381384
+set ebeam2 100.00530451381384
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00304512570841
+set ebeam2 100.00304512570841
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00174811957432
+set ebeam2 100.00174811957432
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.0010035537646
+set ebeam2 100.0010035537646
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00057611902753
+set ebeam2 100.00057611902753
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00033073867287
+set ebeam2 100.00033073867287
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00018987090513
+set ebeam2 100.00018987090513
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00010900144439
+set ebeam2 100.00010900144439
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00006257578542
+set ebeam2 100.00006257578542
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00003592365316
+set ebeam2 100.00003592365316
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00002062313831
+set ebeam2 100.00002062313831
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00001183938261
+set ebeam2 100.00001183938261
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000679678264
+set ebeam2 100.00000679678264
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000390191425
+set ebeam2 100.00000390191425
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.0000022400209
+set ebeam2 100.0000022400209
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000128595691
+set ebeam2 100.00000128595691
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000073824545
+set ebeam2 100.00000073824545
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000042381384
+set ebeam2 100.00000042381384
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000024330416
+set ebeam2 100.00000024330416
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000013967667
+set ebeam2 100.00000013967667
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000008018594
+set ebeam2 100.00000008018594
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000004603335
+set ebeam2 100.00000004603335
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000002642695
+set ebeam2 100.00000002642695
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000001517127
+set ebeam2 100.00000001517127
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.00000000870956
+set ebeam2 100.00000000870956
+set mta 100.0
+set nevents 10000
+launch
+set ebeam1 100.000000005
+set ebeam2 100.000000005
+set mta 100.0
+set nevents 10000

@@ -1,4 +1,4 @@
-package madread.cases;
+package madread.lpp;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,6 +14,7 @@ import static madread.utils.Utils.*;
 public abstract class LeptonPairScript
 {
     private static final double mtau = 100;
+    private static final double alpha = 1.0/137;
 
     /**
      *
@@ -34,11 +35,12 @@ public abstract class LeptonPairScript
         new File(writeDir).mkdirs();
         PrintWriter out = new PrintWriter(new File(String.format("%s%s", writeDir, fileName)).getAbsoluteFile());
         // Initiate process.
-        out.println("generate e- e+ > a > ta- ta+");
+        out.println("generate e- e+ > ta- ta+");
         out.println(String.format("output %s", processDir));
         for (int i=0; i<ebeam1.length; i++)
         {
             out.println("launch");
+//            out.println(String.format("set iseed %s", i+1));
             out.println(String.format("set ebeam1 %s", ebeam1[i]));
             out.println(String.format("set ebeam2 %s", ebeam2[i]));
             // set m_τ = 100 GeV.
@@ -69,9 +71,9 @@ public abstract class LeptonPairScript
 
     public static void main(String[] args) throws FileNotFoundException {
         // max speed
-        double vmax = Math.pow(10, -3);
-        double vmin = Math.pow(10, -6);
-        int ndata = 20;
+        double vmin = alpha/80;
+        double vmax = 0.9;
+        int ndata = 40;
 //        double inc = (vmax-vmin) / ndata;
         double pinc = Math.pow(vmax/vmin, 1.0/(ndata-1));
         // infer input beam energy
@@ -81,7 +83,10 @@ public abstract class LeptonPairScript
 //            E[i] = lfactor(vmin + i*inc)*mtau;
             E[i] = lfactor(vmin*Math.pow(pinc, i))*mtau;
         }
-        iterateEbeams(E, E, 50000, "Repository/e-e+_a_tau-tau+_4", "./src/madread/e-e+_a_tau-tau+/trials/", "ebeamscan4.txt");
-        writeEnergy("./src/madread/e-e+_a_tau-tau+/trials/", E, "beam_energy4.csv");
+        String newprocessDir = "Repository/e-e+_tau-tau+/lpp_global";
+        // directory for generated script and beam energy data.
+        String writeDir = "./src/madread/cases/e-e+_tau-tau+/trials/";
+        iterateEbeams(E, E, 10000, newprocessDir, writeDir, "ebeamscan_global.txt");
+        writeEnergy(writeDir, E, "beam_energy_global.csv");
     }
 }
